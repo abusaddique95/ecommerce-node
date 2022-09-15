@@ -4,13 +4,13 @@
   "description": "e-commerce backend using nodej.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "seed": "node src/seeds/index.js"
   },
   "repository": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "watch": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "inquirer": "^9.0.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.19",
+    "seed": "^0.4.4",
     "sequelize": "^6.21.2"
   }
 }
